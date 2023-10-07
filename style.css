@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+  width: 100%;
+  background: rgb(22,22,22)
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.my-button {
+  padding: 10px 20px;
+  background-color: #242424;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.my-button:hover {
+  background-color: #333333;
+  transform: scale(1.1);
+}
+
+.title {
+  text-align: center;
+  font-size: 36px;
+  padding: 20px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  top: 0;
+  left: 5;
+  width: 100%;
+}
